@@ -6,16 +6,58 @@
 //
 
 import Vapor
-
-struct UserRequest: Content {
+import Mailgun
+// 定义用户请求类型
+struct RegistrationRequest: Content {
     let email: String
     let password: String
+}
+// 定义用户类型
+struct Users: Content {
+    var email: String
+    var password: String
+    var verificationCode: String
+    // 可以添加更多字段，如 username, avatar 等
 }
 
 class UserController {
     
+    func register(req: Request) throws -> EventLoopFuture<ResponseData<Users>> {
+        let registrationRequest = try req.content.decode(RegistrationRequest.self)
+        let verificationCode = generateVerificationCode()
+
+        // 创建用户并分配验证码
+        let user = Users(email: registrationRequest.email, password: registrationRequest.password, verificationCode: verificationCode)
+
+        let message = MailgunMessage(
+            from: "postmaster@mail.clockcat.site",
+            to: user.email,  // 假设您想发送到用户的邮箱
+            subject: "Verification Code",
+            text: "Your verification code is \(verificationCode)",
+            html: "<h1>Your verification code is \(verificationCode)</h1>"
+        )
+
+        req.mailgun(.ClockCat).send(message).whenComplete() { response in
+                print("just sent: \(response)")
+            
+           
+        }
+        return req.eventLoop.makeSucceededFuture(ResponseData(code: 200, msg: "Registration successful", data: user))
+
+        // 发送邮件并处理结果
+//        return req.mailgun().send(message).flatMap { _ in
+//            
+//            
+//        }
+    }
+
+    private func generateVerificationCode() -> String {
+        // 生成一个六位随机数字验证码
+        return String((0..<6).map{ _ in Int.random(in: 0...9) }.map(String.init).joined())
+    }
+    
     func create(req: Request) throws -> EventLoopFuture<ResponseData<User>> {
-        let userRequest = try req.content.decode(UserRequest.self)
+        let userRequest = try req.content.decode(RegistrationRequest.self)
         print("Received user request: \(userRequest)")
 
         let username = generateRandomUsername()
@@ -28,8 +70,6 @@ class UserController {
             throw Abort(.badRequest, reason: "Error creating user: \(error)")
         }
     }
-
-
 
     private func generateRandomUsername() -> String {
         let letters = "abcdefghijklmnopqrstuvwxyz"

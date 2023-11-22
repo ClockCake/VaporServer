@@ -2,7 +2,7 @@ import NIOSSL
 import Fluent
 import FluentSQLiteDriver
 import Vapor
-
+import Mailgun
 // configures your application
 public func configure(_ app: Application) async throws {
     // uncomment to serve files from /Public folder
@@ -45,11 +45,19 @@ public func configure(_ app: Application) async throws {
         }
         return response
     })
+    
+//    app.mailgun.configuration = .init(apiKey: "1c5e888aa1adf8a35e87ff8cd41409f7-5d2b1caa-248c7f51")
+    app.mailgun.configuration = .init(apiKey: "key-ae3c92282a8875e37ad780781db03327-5d2b1caa-c3ba9cb7")
 
-
-      
+    app.mailgun.defaultDomain = .ClockCat
+    
     // register routes
     try routes(app)
 }
 struct EmptyData: Codable {}
 
+extension MailgunDomain {
+    static var ClockCat: MailgunDomain { .init("mail.clockcat,site", .us) }
+    static var iTimes: MailgunDomain { .init("itimes.me", .us) }
+
+}
