@@ -7,7 +7,6 @@
 
 import Vapor
 import Mailgun
-import SwiftSMTP
 // 定义用户请求类型
 struct RegistrationRequest: Content {
     let email: String
