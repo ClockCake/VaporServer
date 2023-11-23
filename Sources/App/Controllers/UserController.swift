@@ -39,8 +39,6 @@ class UserController {
 
         req.mailgun(.ClockCat).send(message).whenComplete() { response in
                 print("just sent: \(response)")
-            
-           
         }
         return req.eventLoop.makeSucceededFuture(ResponseData(code: 200, msg: "Registration successful", data: user))
 
