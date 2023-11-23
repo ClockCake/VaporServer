@@ -3,10 +3,10 @@ import Fluent
 import FluentSQLiteDriver
 import Vapor
 import Mailgun
+import Crypto
 // configures your application
 public func configure(_ app: Application) async throws {
     // uncomment to serve files from /Public folder
-    // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
 
     app.databases.use(DatabaseConfigurationFactory.sqlite(.file("db.sqlite")), as: .sqlite)
 
@@ -19,6 +19,7 @@ public func configure(_ app: Application) async throws {
     
     app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
     
+    /// 网络中间件设置
     app.middleware.use(ErrorMiddleware { req, error in
         let status: HTTPStatus
         let message: String
@@ -46,17 +47,28 @@ public func configure(_ app: Application) async throws {
         return response
     })
     
-    app.mailgun.configuration = .init(apiKey: "ed59591e058d0e19410cf5bb0466428f-5d2b1caa-214752ef")
+    app.mailgun.configuration = .init(apiKey: decodeBase64("ZWQ1OTU5MWUwNThkMGUxOTQxMGNmNWJiMDQ2NjQyOGYtNWQyYjFjYWEtMjE0NzUyZWY=") ?? "")
 
     app.mailgun.defaultDomain = .ClockCat
     
     // register routes
     try routes(app)
 }
+
+private func decodeBase64(_ base64String: String) -> String? {
+    // 尝试将Base64字符串转换为Data
+    guard let data = Data(base64Encoded: base64String) else {
+        print("Error: String is not Base64 encoded")
+        return nil
+    }
+
+    // 将Data转换为String
+    return String(data: data, encoding: .utf8)
+}
 struct EmptyData: Codable {}
 
 extension MailgunDomain {
-    static var ClockCat: MailgunDomain { .init("mail.clockcat,site", .us) }
+    static var ClockCat: MailgunDomain { .init("mail.clockcat.site", .us) }
     static var iTimes: MailgunDomain { .init("itimes.me", .us) }
 
 }

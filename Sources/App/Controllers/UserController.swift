@@ -7,6 +7,7 @@
 
 import Vapor
 import Mailgun
+import SwiftSMTP
 // 定义用户请求类型
 struct RegistrationRequest: Content {
     let email: String
@@ -21,7 +22,7 @@ struct Users: Content {
 }
 
 class UserController {
-    
+
     func register(req: Request) throws -> EventLoopFuture<ResponseData<Users>> {
         let registrationRequest = try req.content.decode(RegistrationRequest.self)
         let verificationCode = generateVerificationCode()
@@ -30,20 +31,19 @@ class UserController {
         let user = Users(email: registrationRequest.email, password: registrationRequest.password, verificationCode: verificationCode)
 
         let message = MailgunMessage(
-            from: "postmaster@mail.clockcat.site",
+            from: "daydream@goldman.clockcat.site",
             to: user.email,  // 假设您想发送到用户的邮箱
             subject: "Verification Code",
             text: "Your verification code is \(verificationCode)",
             html: "<h1>Your verification code is \(verificationCode)</h1>"
         )
 
-        req.mailgun(.ClockCat).send(message).whenComplete() { response in
-                print("just sent: \(response)")
+        return req.mailgun(.ClockCat).send(message).flatMap { response in
+            // 这里可以添加额外的逻辑处理，比如验证邮件发送状态等
+            return req.eventLoop.makeSucceededFuture(ResponseData(code: 200, msg: "Verification Code send is successful", data: user))
         }
-        return req.eventLoop.makeSucceededFuture(ResponseData(code: 200, msg: "Registration successful", data: user))
-
-
     }
+
 
     private func generateVerificationCode() -> String {
         // 生成一个六位随机数字验证码
