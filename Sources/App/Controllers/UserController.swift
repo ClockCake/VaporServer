@@ -42,11 +42,7 @@ class UserController {
         }
         return req.eventLoop.makeSucceededFuture(ResponseData(code: 200, msg: "Registration successful", data: user))
 
-        // 发送邮件并处理结果
-//        return req.mailgun().send(message).flatMap { _ in
-//            
-//            
-//        }
+
     }
 
     private func generateVerificationCode() -> String {

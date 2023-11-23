@@ -46,8 +46,7 @@ public func configure(_ app: Application) async throws {
         return response
     })
     
-//    app.mailgun.configuration = .init(apiKey: "1c5e888aa1adf8a35e87ff8cd41409f7-5d2b1caa-248c7f51")
-    app.mailgun.configuration = .init(apiKey: "")
+    app.mailgun.configuration = .init(apiKey: "ed59591e058d0e19410cf5bb0466428f-5d2b1caa-214752ef")
 
     app.mailgun.defaultDomain = .ClockCat
     

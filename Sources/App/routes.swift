@@ -1,6 +1,6 @@
 import Fluent
 import Vapor
-
+import Mailgun
 func routes(_ app: Application) throws {
     let userController = UserController()
 
@@ -10,5 +10,7 @@ func routes(_ app: Application) throws {
     app.put("users", ":userID", use: userController.update)
     app.delete("users", ":userID", use: userController.delete)
     app.post("verification", use: userController.register)
+    
+
 
 }
