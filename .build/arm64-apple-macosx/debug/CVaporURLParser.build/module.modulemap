@@ -1,0 +1,4 @@
+module CVaporURLParser {
+    umbrella "/Users/hyd/Desktop/VaporServer/.build/checkouts/vapor/Sources/CVaporURLParser/include"
+    export *
+}

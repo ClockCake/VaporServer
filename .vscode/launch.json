@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:VaporServer}",
+            "name": "Debug App",
+            "program": "${workspaceFolder:VaporServer}/.build/debug/App",
+            "preLaunchTask": "swift: Build Debug App"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:VaporServer}",
+            "name": "Release App",
+            "program": "${workspaceFolder:VaporServer}/.build/release/App",
+            "preLaunchTask": "swift: Build Release App"
+        }
+    ]
+}

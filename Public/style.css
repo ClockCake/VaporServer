@@ -29,7 +29,7 @@ body {
 input[type="text"], input[type="password"] {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px -10px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
@@ -49,13 +49,21 @@ input[type="text"], input[type="password"] {
     background-color: #0056b3;
 }
 
+/* 增加忘记密码和立即注册的上间距和改变字体颜色 */
 a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 12px;
+    font-weight: bold; /* 字体加粗 */
+    font-size: 14px; /* 字号加大 */
+    color: #0056b3; /* 字体颜色改变 */
+    margin-top: 20px; /* 增加上间距为20px */
+    display: inline-block; /* 使用inline-block以便可以添加上间距同时保持在同一行 */
 }
 
-a:hover {
-    text-decoration: underline;
+
+/* 特别针对忘记密码和立即注册的链接，可以增加更具体的样式 */
+a[href="#"]:first-of-type {
+    margin-right: 30px; /* 只增加忘记密码右侧的间距 */
 }
 
+a[href="#"]:last-of-type {
+    margin-left: 30px; /* 只增加立即注册左侧的间距 */
+}

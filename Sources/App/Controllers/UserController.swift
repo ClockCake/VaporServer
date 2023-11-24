@@ -29,12 +29,13 @@ class UserController {
         // 创建用户并分配验证码
         let user = Users(email: registrationRequest.email, password: registrationRequest.password, verificationCode: verificationCode)
 
-        let message = MailgunMessage(
-            from: "daydream@goldman.clockcat.site",
+        
+        let message = MailgunTemplateMessage(
+            from: "Register@clockcat.site",
             to: user.email,  // 假设您想发送到用户的邮箱
-            subject: "Verification Code",
-            text: "Your verification code is \(verificationCode)",
-            html: "<h1>Your verification code is \(verificationCode)</h1>"
+            subject: "注册验证码",
+            template:"verification",// 指定使用的模板名称
+            templateData: ["verification_code": verificationCode]  // 将验证码作为模板数据传递
         )
 
         return req.mailgun(.ClockCat).send(message).flatMap { response in

@@ -11,6 +11,9 @@ func routes(_ app: Application) throws {
     app.delete("users", ":userID", use: userController.delete)
     app.post("verification", use: userController.register)
     
+    app.get("hello") { req -> EventLoopFuture<View> in
+        return req.view.render("hello", ["name": "Leaf"])
+    }
 
 
 }

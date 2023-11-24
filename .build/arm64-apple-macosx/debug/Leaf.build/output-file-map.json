@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/master.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/leaf/Sources/Leaf/Application+Leaf.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Application+Leaf.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Application+Leaf.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Application+Leaf~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Application+Leaf.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/leaf/Sources/Leaf/Exports.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Exports.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Exports.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Exports.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/leaf/Sources/Leaf/LeafEncoder.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafEncoder.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafEncoder.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafEncoder.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/leaf/Sources/Leaf/LeafError+AbortError.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafError+AbortError.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafError+AbortError.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafError+AbortError~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafError+AbortError.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/leaf/Sources/Leaf/LeafRenderer+ViewRenderer.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafRenderer+ViewRenderer.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafRenderer+ViewRenderer.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafRenderer+ViewRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/LeafRenderer+ViewRenderer.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/leaf/Sources/Leaf/Request+Leaf.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Request+Leaf.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Request+Leaf.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Request+Leaf~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Request+Leaf.swiftdeps"
+  }
+}

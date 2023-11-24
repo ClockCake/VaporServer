@@ -1,0 +1,4 @@
+module CNIOExtrasZlib {
+    umbrella header "/Users/hyd/Desktop/VaporServer/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+    export *
+}

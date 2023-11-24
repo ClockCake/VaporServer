@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Metrics.build/master.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Metrics.build/Metrics.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Metrics.build/Metrics.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Metrics.build/Metrics~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Metrics.build/Metrics.swiftdeps"
+  }
+}

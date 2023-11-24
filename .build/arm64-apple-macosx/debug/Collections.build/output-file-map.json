@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Collections.build/master.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/swift-collections/Sources/Collections/Collections.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Collections.build/Collections.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Collections.build/Collections.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Collections.build/Collections~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Collections.build/Collections.swiftdeps"
+  }
+}

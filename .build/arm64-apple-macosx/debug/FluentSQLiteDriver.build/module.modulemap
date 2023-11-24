@@ -1,0 +1,4 @@
+module FluentSQLiteDriver {
+    header "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/FluentSQLiteDriver.build/FluentSQLiteDriver-Swift.h"
+    requires objc
+}

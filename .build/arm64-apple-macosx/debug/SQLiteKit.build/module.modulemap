@@ -1,0 +1,4 @@
+module SQLiteKit {
+    header "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/SQLiteKit.build/SQLiteKit-Swift.h"
+    requires objc
+}

@@ -15,6 +15,8 @@ let package = Package(
         .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.0.0"),
         
         .package(url: "https://github.com/vapor-community/mailgun.git", from: "5.0.0"),
+        
+        .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0"),
 
 
     ],
@@ -26,6 +28,7 @@ let package = Package(
                 .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver"),
                 .product(name: "Vapor", package: "vapor"),
                 .product(name: "Mailgun", package: "mailgun"),
+                .product(name: "Leaf", package: "leaf"),
             ]
         ),
         .testTarget(name: "AppTests", dependencies: [

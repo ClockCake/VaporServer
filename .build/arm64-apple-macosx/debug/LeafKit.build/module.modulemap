@@ -1,0 +1,4 @@
+module LeafKit {
+    header "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/LeafKit.build/LeafKit-Swift.h"
+    requires objc
+}

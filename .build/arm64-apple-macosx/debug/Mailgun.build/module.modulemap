@@ -1,0 +1,4 @@
+module Mailgun {
+    header "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Mailgun-Swift.h"
+    requires objc
+}

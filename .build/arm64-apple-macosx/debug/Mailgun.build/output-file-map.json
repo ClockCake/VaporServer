@@ -1,0 +1,101 @@
+{
+  "": {
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/master.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Enums/Error.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Error.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Error.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Error.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Enums/Region.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Region.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Region.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Region~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Enums/Region.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Extensions/Mailgun+Application.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Application.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Application.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Application~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Application.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Extensions/Mailgun+Encode.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Encode.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Encode.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Encode~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Encode.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Extensions/Mailgun+ParseResponse.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+ParseResponse.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+ParseResponse.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+ParseResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+ParseResponse.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Extensions/Mailgun+PostRequest.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+PostRequest.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+PostRequest.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+PostRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+PostRequest.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Extensions/Mailgun+Request.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Request.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Request.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Extensions/Mailgun+Request.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Mailgun.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Mailgun.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Mailgun.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Mailgun~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Mailgun.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/Configuration.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Configuration.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Configuration.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Configuration.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/Domain.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Domain.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Domain.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Domain~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Domain.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/ErrorResponse.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/ErrorResponse.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/ErrorResponse.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/ErrorResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/ErrorResponse.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/IncomingMessage.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/IncomingMessage.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/IncomingMessage.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/IncomingMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/IncomingMessage.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/Message.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Message.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Message.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Message~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Message.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/RouteSetup.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/RouteSetup.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/RouteSetup.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/RouteSetup~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/RouteSetup.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/Template.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Template.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Template.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Template~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/Template.swiftdeps"
+  },
+  "/Users/hyd/Desktop/VaporServer/.build/checkouts/mailgun/Sources/Mailgun/Models/TemplateMessage.swift": {
+    "dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/TemplateMessage.d",
+    "object": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/TemplateMessage.swift.o",
+    "swiftmodule": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/TemplateMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Mailgun.build/Models/TemplateMessage.swiftdeps"
+  }
+}

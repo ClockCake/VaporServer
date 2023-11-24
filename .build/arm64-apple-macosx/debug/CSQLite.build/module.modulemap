@@ -1,0 +1,4 @@
+module CSQLite {
+    umbrella "/Users/hyd/Desktop/VaporServer/.build/checkouts/sqlite-nio/Sources/CSQLite/include"
+    export *
+}

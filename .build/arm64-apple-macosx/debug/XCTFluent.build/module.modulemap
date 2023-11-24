@@ -1,0 +1,4 @@
+module XCTFluent {
+    header "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/XCTFluent.build/XCTFluent-Swift.h"
+    requires objc
+}

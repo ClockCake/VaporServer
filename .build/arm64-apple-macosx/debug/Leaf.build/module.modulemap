@@ -1,0 +1,4 @@
+module Leaf {
+    header "/Users/hyd/Desktop/VaporServer/.build/arm64-apple-macosx/debug/Leaf.build/Leaf-Swift.h"
+    requires objc
+}

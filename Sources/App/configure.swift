@@ -4,20 +4,23 @@ import FluentSQLiteDriver
 import Vapor
 import Mailgun
 import Crypto
+import Leaf
 // configures your application
 public func configure(_ app: Application) async throws {
     // uncomment to serve files from /Public folder
 
     app.databases.use(DatabaseConfigurationFactory.sqlite(.file("db.sqlite")), as: .sqlite)
-
-    app.migrations.add(CreateTodo())
     
     app.migrations.add(CreateUser())
+    
+    app.views.use(.leaf)
+
     
     // 运行迁移
     try await app.autoMigrate().get()
     
     app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
+
     
     /// 网络中间件设置
     app.middleware.use(ErrorMiddleware { req, error in
