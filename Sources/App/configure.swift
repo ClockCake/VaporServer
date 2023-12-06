@@ -4,7 +4,6 @@ import FluentSQLiteDriver
 import Vapor
 import Mailgun
 import Crypto
-import Leaf
 // configures your application
 public func configure(_ app: Application) async throws {
     // uncomment to serve files from /Public folder
@@ -13,7 +12,6 @@ public func configure(_ app: Application) async throws {
     
     app.migrations.add(CreateUser())
     
-    app.views.use(.leaf)
 
     
     // 运行迁移

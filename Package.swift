@@ -23,9 +23,9 @@ let package = Package(
         .executableTarget(
             name: "App",
             dependencies: [
+                .product(name: "Vapor", package: "vapor"),
                 .product(name: "Fluent", package: "fluent"),
                 .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver"),
-                .product(name: "Vapor", package: "vapor"),
                 .product(name: "Mailgun", package: "mailgun"),
             ]
         ),
